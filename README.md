@@ -1,3 +1,4 @@
+# Currenly doesn't work, I messed up somewhere trying to fix it.  
 # GeoFS - Personal Locations Saver
 
 A userscript for GeoFS that lets you save your favorite flying spots and teleport back instantly – always spawning 10 feet above ground with zero speed.
