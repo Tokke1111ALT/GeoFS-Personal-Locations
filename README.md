@@ -4,7 +4,7 @@ A userscript for GeoFS that lets you save your favorite flying spots and telepor
 
 ## Description
 
-This script adds a new **"Personal"** tab to the GeoFS location menu where you can store and return to your favorite spots. You can manually save your current aircraft position with a custom name. When teleporting back, the script ensures you spawn exactly **10 feet above the saved spot**, and **completely still** for maximum precision.
+This script adds a new **"Personal"** tab to the GeoFS location menu where you can store and return to your favorite spots. You can manually save your current aircraft position with a custom name. When teleporting back, the script ensures you spawn exactly **10 feet above the saved spot**.
 
 All data is stored locally using localStorage – no external servers or tracking involved.
 
@@ -13,8 +13,7 @@ All data is stored locally using localStorage – no external servers or trackin
 - Adds a new **Personal** collapsible tab to the GeoFS UI
 - Adds a Save button next to the search bar
 - Save your current aircraft location with a custom name
-- Always spawns with zero speed
-- Always spawns 10 feet above ground level
+- Always spawns 10 feet above  level
 - Delete saved locations safely with confirmation: "Are you sure?"
 - Data is stored in localStorage (persists after reload)
 
@@ -24,7 +23,6 @@ All data is stored locally using localStorage – no external servers or trackin
 - Gets heading from geofs.animation.values.heading360
 - Overrides geofs.flyTo() to ensure:
   - Aircraft starts at altitude + 10
-  - Speed is set to zero
 - Saves everything under key "personalLocations" in localStorage
 
 ## Installation
@@ -42,10 +40,11 @@ Try one of these browser extensions:
 ### Step 3: Use It in GeoFS  
 1. Go to [GeoFS](https://geo-fs.com/geofs.php )
 2. Fly to a location you want to save
-3. Click the **Save** button next to the search bar
-4. Enter a name for the location
-5. The location appears under the **Personal** tab
-6. Click it anytime to teleport back – always still, always +10ft
+3. Click the location button
+4. Click the **Save** button next to the search bar
+5. Enter a name for the location
+6. The location appears under the **Personal** tab
+7. Click it anytime to teleport back, always +10ft
 
 ## Delete a Saved Location
 
@@ -56,17 +55,9 @@ Clicking it shows:
 
 Only after confirming will it be removed permanently from both the list and localStorage.
 
-## File Structure (for GitHub repo)
-
-geofs-personal-locations/
-├── geofs-personal-locations.user.js   ← Main userscript
-└── README.md                          ← This file
-
 ## Author
 
 Tokke_1111  
-GitHub: https://github.com/Tokke_1111   
-GeoFS Handle: Tokke_1111
 
 ## Contributing
 
@@ -87,6 +78,6 @@ MIT – see LICENSE for details.
 If you find bugs or have ideas for improvement, feel free to open an issue on GitHub or reach out via:
 
 - Discord: Tokke_1111
-- GitHub: https://github.com/Tokke_1111 
+- GitHub: Tokke_1111ALT 
 
 Happy flying and safe landings!
