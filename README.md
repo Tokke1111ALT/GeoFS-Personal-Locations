@@ -55,10 +55,6 @@ Clicking it shows:
 
 Only after confirming will it be removed permanently from both the list and localStorage.
 
-## Author
-
-Tokke_1111  
-
 ## Contributing
 
 Want to improve or expand this script?
@@ -69,15 +65,16 @@ Want to improve or expand this script?
 
 All contributions are welcome!
 
-## License
-
-MIT – see LICENSE for details.
-
 ## Feedback & Issues
 
 If you find bugs or have ideas for improvement, feel free to open an issue on GitHub or reach out via:
 
 - Discord: Tokke_1111
-- GitHub: Tokke_1111ALT 
+- GitHub: Tokke_1111ALT  
+## Author
 
-Happy flying and safe landings!
+Tokke_1111  
+## License
+
+MIT – see LICENSE for details.  
+### Happy flying and safe landings!
